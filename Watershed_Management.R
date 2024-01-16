@@ -6,8 +6,8 @@ library(gstat)
 library(rasterVis)
 
 # Set working directory and read digital elevation model (DEM)
-setwd("path/to/your/data")
-dem <- raster("dem.tif")
+setwd("F:/Watershed/Dem/Input/")
+dem <- raster("dem_loc.tif")
 
 # Delineate watershed
 watershed <- watershed(dem)
